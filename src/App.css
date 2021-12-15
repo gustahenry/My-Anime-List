@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+}
+.app-container{
+    padding: 0px 20px;
+}

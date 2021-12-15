@@ -1,0 +1,48 @@
+
+.desc-container{
+    display: flex;
+    
+}
+
+.details{
+    padding: 0 5px;
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+}
+
+.rate{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.score{
+    padding: 3px 10px;
+    background-color: #2e51a2;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sinopse h4 {
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.sinopse{
+    padding: 0 25px;
+}
+
+.trailer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
