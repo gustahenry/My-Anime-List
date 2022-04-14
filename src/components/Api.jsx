@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router";
 import {Link} from "react-router-dom";
+import { Card, CardImg } from "react-bootstrap";
 
-import './Api.css';
 
 const Api = (parm) => {
 
@@ -45,13 +45,13 @@ const Api = (parm) => {
           {posts.map((post, key) => {
           return(
             
-              <div className="card" key={post.toString()}>
+              <Card style={{width: '12rem'}} key={post.toString()}>
                 <Link to={"/" + post.mal_id}>
-                <img src={post.image_url}></img>
+                <CardImg src={post.image_url}></CardImg>
                 </Link>
-                <p>{post.title}</p>
+                <Card.Title>{post.title}</Card.Title>
   
-              </div>
+              </Card>
              
           )
       })}
